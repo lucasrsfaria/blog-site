@@ -1,0 +1,105 @@
+/* Estilos gerais */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f7fc;
+}
+
+header {
+	background-color: #1e90ff;
+	color: #fff;
+	padding: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 0 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+section:last-child {
+	border-bottom: none;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #e84c3d;
+}
+
+a {
+	color: #e84c3d;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #e84c3d;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+	background-color: #d53222;
+}
+
+footer {
+	background-color: #1e90ff;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 50px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+/* Estilos específicos para telas pequenas */
+
+@media screen and (max-width: 600px) {
+	header {
+		padding: 10px;
+	}
+	
+	nav li {
+		display: block;
+		margin-bottom: 10px;
+	}
+}
